@@ -10,6 +10,9 @@ namespace ConcurrentDemo
     {
         static void Main(string[] args)
         {
+            ConcurrentDictionaryClass concurrent = new ConcurrentDictionaryClass();
+            concurrent.Begion();
+
         }
     }
 }
