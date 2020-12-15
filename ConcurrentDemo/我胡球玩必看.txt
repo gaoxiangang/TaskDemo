@@ -1,0 +1,28 @@
+﻿本Demo 是.NET FW 中的基础类库与并发编程相关的不同数据结构
+1.使用ConcurrentDictionary
+2.使用ConcurrentQueue实现异步处理
+3.改变ConcurrentStack异步处理顺序
+4.使用ConcurrentBag创建一个可扩展的爬虫
+5.使用BlockingCollection进行异步处理
+
+
+   首先从ConcurrentQueue开始；该集合使用原子的比较和交换(Compare and Swap 简称CAS操作)，以及SpinWait来保证线程安全。
+它实现了一个先进先出（First in First OUT）FIFO;这意味着元素出队列的顺序与加入队列的顺序是一致的。可以调用Enqueue方法向队列加入元素，
+TryDequeue从队列中取出第一个元素，TryPeek方法则试图得到第一个元素但是不从队列中删除此元素；
+   
+   ConcurrentStack的实现也没有使用任何锁，只是采用了CAS操作 它是一个后进先出的集合(Last in First Out) LIFO,意味着后添加的元素先返回。
+使用Push 和PushRange方法添加元素，使用TryPop和TryPopRange方法获取元素，以及TryPeek方法检查元素
+   
+   ConcurrentBag是一个支持重复元素的无序集合。它对这样以下的场景进行优化，即多个线程以这样的方式工作:每个线程生产和消费自己的任务，
+极少与其他线程交互(如果交互则使用锁)。添加元素使用Add方法，检查元素使用TryPeek方法，获取元素使用TryTake方法
+
+注：如果想要检查上述集合是否为空 使用IsEmpty属性；
+
+   ConcurrentDictionary 是一个线程安全的字典集合的实现。对于读取操作无需使用锁，对于写操作则需使用锁。该并发字典使用多个锁，在字典桶之上实现
+   细粒度的锁模型。使用参数concurrencyLevel可以在构造函数中定义锁的数量。这意味着预估的线程数量将并发更新该字典（看不懂。。。。）
+
+   BlockingCollection是对IProductConsumerCollection泛型接口的实现一个高级封装，它有很多先进的功能来实现管道场景，即当你有一些步骤需要使用之前
+   步骤运行的结果。BlockingCollection类支持如下功能:分块、调整内部集合容量、取消集合操作、从多个集合中获取元素。
+
+
+

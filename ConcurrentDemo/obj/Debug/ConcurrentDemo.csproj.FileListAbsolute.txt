@@ -1,0 +1,7 @@
+D:\TaskDemo\ConcurrentDemo\bin\Debug\ConcurrentDemo.exe.config
+D:\TaskDemo\ConcurrentDemo\bin\Debug\ConcurrentDemo.exe
+D:\TaskDemo\ConcurrentDemo\bin\Debug\ConcurrentDemo.pdb
+D:\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.csprojAssemblyReference.cache
+D:\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.csproj.CoreCompileInputs.cache
+D:\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.exe
+D:\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.pdb
