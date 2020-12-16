@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConcurrentDictionaryClass.cs" />
+    <Compile Include="ConcurrentStackClass.cs" />
+    <Compile Include="ConcurrentQueueClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ConcurrentDemo
@@ -10,8 +7,17 @@ namespace ConcurrentDemo
     {
         static void Main(string[] args)
         {
-            ConcurrentDictionaryClass concurrent = new ConcurrentDictionaryClass();
-            concurrent.Begion();
+            //ConcurrentDictionaryClass concurrent = new ConcurrentDictionaryClass();
+            //concurrent.Begion();
+            Task task = null;
+            //Task task = ConcurrentQueueClass.RunProgram();
+
+
+            task = ConcurrentStackClass.RunProgram();
+
+            task.Wait();
+
+            Console.ReadKey();
 
         }
     }
