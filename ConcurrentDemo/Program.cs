@@ -13,7 +13,11 @@ namespace ConcurrentDemo
             //Task task = ConcurrentQueueClass.RunProgram();
 
 
-            task = ConcurrentStackClass.RunProgram();
+            //task = ConcurrentStackClass.RunProgram();
+
+
+            ConcurrentBagClass.CreateLinks();
+            task = ConcurrentBagClass.RunProgram();
 
             task.Wait();
 

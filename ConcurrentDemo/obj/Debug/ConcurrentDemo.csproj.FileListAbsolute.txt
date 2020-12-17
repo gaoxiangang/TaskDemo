@@ -5,3 +5,10 @@ D:\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.csprojAssemblyReference.cach
 D:\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.csproj.CoreCompileInputs.cache
 D:\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.exe
 D:\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.pdb
+D:\NetProject\TaskDemo\ConcurrentDemo\bin\Debug\ConcurrentDemo.exe.config
+D:\NetProject\TaskDemo\ConcurrentDemo\bin\Debug\ConcurrentDemo.exe
+D:\NetProject\TaskDemo\ConcurrentDemo\bin\Debug\ConcurrentDemo.pdb
+D:\NetProject\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.csprojAssemblyReference.cache
+D:\NetProject\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.csproj.CoreCompileInputs.cache
+D:\NetProject\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.exe
+D:\NetProject\TaskDemo\ConcurrentDemo\obj\Debug\ConcurrentDemo.pdb
