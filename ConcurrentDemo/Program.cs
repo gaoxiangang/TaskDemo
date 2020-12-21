@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Threading.Tasks;
 
 namespace ConcurrentDemo
@@ -16,8 +17,15 @@ namespace ConcurrentDemo
             //task = ConcurrentStackClass.RunProgram();
 
 
-            ConcurrentBagClass.CreateLinks();
-            task = ConcurrentBagClass.RunProgram();
+            //ConcurrentBagClass.CreateLinks();
+            //task = ConcurrentBagClass.RunProgram();
+
+            task = BLockingCollectionClass.RunProgram();
+            Console.WriteLine();
+            task.Wait();
+
+            task = BLockingCollectionClass.RunProgram(new ConcurrentStack<CustomTask>());
+            Console.WriteLine();
 
             task.Wait();
 

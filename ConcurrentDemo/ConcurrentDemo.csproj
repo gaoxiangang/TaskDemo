@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLockingCollectionClass.cs" />
     <Compile Include="ConcurrentBagClass.cs" />
     <Compile Include="ConcurrentDictionaryClass.cs" />
     <Compile Include="ConcurrentStackClass.cs" />
     <Compile Include="ConcurrentQueueClass.cs" />
+    <Compile Include="ITask.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
