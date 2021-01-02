@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PLINQDemo
 {
@@ -10,6 +6,15 @@ namespace PLINQDemo
     {
         static void Main(string[] args)
         {
+
+            //ParallelClass.RunMain();
+            //ParallelQueryClass.RunMain();
+
+            //PLinqRecipe3.RunMain();
+            //PLINQRecipe4.RunMain();
+            PLINQRecipe5.RunMain();
+
+            Console.ReadKey();
         }
     }
 }

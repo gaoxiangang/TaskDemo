@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ParallelClass.cs" />
+    <Compile Include="ParallelQueryClass.cs" />
+    <Compile Include="PLinqRecipe3.cs" />
+    <Compile Include="PLINQRecipe4.cs" />
+    <Compile Include="PLINQRecipe5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="章节说明.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
