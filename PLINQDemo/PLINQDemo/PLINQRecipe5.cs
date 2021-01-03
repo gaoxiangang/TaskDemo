@@ -31,7 +31,7 @@ namespace PLINQDemo
         public static string EmulateProcessing(string typeName)
         {
             Sleep(TimeSpan.FromMilliseconds(150));
-            WriteLine($"{typeName}被线程{CurrentThread.ManagedThreadId}处理完成！");
+            WriteLine($"{typeName}被线程{CurrentThread.ManagedThreadId}处理完成！长度为{(typeName.Length%2==0?"Even":"Odd")}");
             return typeName;
         }
 

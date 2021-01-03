@@ -48,6 +48,7 @@
     <Compile Include="PLinqRecipe3.cs" />
     <Compile Include="PLINQRecipe4.cs" />
     <Compile Include="PLINQRecipe5.cs" />
+    <Compile Include="PLINQRecipe6.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

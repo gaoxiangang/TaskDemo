@@ -12,7 +12,8 @@ namespace PLINQDemo
 
             //PLinqRecipe3.RunMain();
             //PLINQRecipe4.RunMain();
-            PLINQRecipe5.RunMain();
+            //PLINQRecipe5.RunMain();
+            PLINQRecipe6.RunMain();
 
             Console.ReadKey();
         }
