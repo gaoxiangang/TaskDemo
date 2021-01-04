@@ -14,23 +14,28 @@ namespace Reactive_ExtensionsDemo
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            foreach (int i in Power(2, 8))
-            {
-                Console.WriteLine("{0} ", i);
-            }
+            //foreach (int i in Power(2, 8))
+            //{
+            //    Console.WriteLine("{0} ", i);
+            //}
+
+            //Rx_Recipe2.RunMain();
+
+            Rx_Recipe3.RunMain();
+
 
             Console.ReadKey();
         }
 
-        public static System.Collections.Generic.IEnumerable<int> Power(int number, int exponent)
-        {
-            int result = 1;
+        //public static System.Collections.Generic.IEnumerable<int> Power(int number, int exponent)
+        //{
+        //    int result = 1;
 
-            for (int i = 0; i < exponent; i++)
-            {
-                result = result * number;
-                yield return result;
-            }
-        }
+        //    for (int i = 0; i < exponent; i++)
+        //    {
+        //        result = result * number;
+        //        yield return result;
+        //    }
+        //}
     }
 }
