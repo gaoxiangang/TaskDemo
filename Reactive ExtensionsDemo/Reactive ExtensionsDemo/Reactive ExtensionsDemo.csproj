@@ -59,6 +59,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rx-Recipe2.cs" />
     <Compile Include="Rx-Recipe3.cs" />
+    <Compile Include="Rx-Recipe4.cs" />
+    <Compile Include="Rx-Recipe5.cs" />
+    <Compile Include="Rx-Recipe6.cs" />
+    <Compile Include="Rx-Recipe7.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
