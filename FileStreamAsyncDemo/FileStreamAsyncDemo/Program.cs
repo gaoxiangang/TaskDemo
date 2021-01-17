@@ -10,6 +10,17 @@ namespace FileStreamAsyncDemo
     {
         static void Main(string[] args)
         {
+
+
+            //var t= FSA_Recipe1.RunMain();
+            //t.GetAwaiter().GetResult();
+
+            //FSA_Recipe2.RunMain();
+            FSA_Recipe3.RunMain();
+
+
+
+            Console.ReadLine();
         }
     }
 }
